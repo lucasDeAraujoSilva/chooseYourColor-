@@ -6,38 +6,86 @@ body {
     display: flex;
     height: 100%;
   }
-  h1{
+
+  h1 {
     font-family: sans-serif
   }
+
   button {
-    width: 50px;
-    margin: 5px;
-    padding: 15px;
+    position: relative;
     border-radius: 10px;
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 16px;  
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 10px 5px 10px 5px;
+    letter-spacing: 4px
   }
+
   html {
     height: 100%;
   }
 
-  .img{
+  .img {
     width: 60%;
-
-  }
-  #azul{
-    background-color: blue;
-  }
-  #vermelho{
-    background-color: red;
   }
 
-  #branco{
+  #azul {
+    background-color: #030391;
+  }
+  
+  #azul:hover {
+    background: #030391;
+    color: #030391;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #030391, 0 0 25px #030391, 0 0 50px #030391, 0 0 100px #030391;  
+  }
+  
+  #vermelho {
+    background-color: #bb0303;
+  }
+
+  #vermelho:hover {
+    background: #bb0303;
+    color: #bb0303;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bb0303, 0 0 25px #bb0303, 0 0 50px #bb0303, 0 0 100px #bb0303;
+  }
+
+  #branco {
     background-color: white;
   }
 
-  #preto{
+  #branco:hover{
+    background: white;
+    color: silver;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px silver, 0 0 25px silver, 0 0 50px silver, 0 0 100px silver;
+ 
+  }
+
+  #preto {
     background-color: black;
   }
 
-  #cinza{
+  #preto:hover {
+    background: black;
+    color: black;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black;
+  }
+
+  #cinza {
     background-color: gray;
+  }
+
+  #cinza:hover{
+    background: gray;
+    color: gray;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray, 0 0 25px gray, 0 0 50px gray, 0 0 100px gray;
+
   }
